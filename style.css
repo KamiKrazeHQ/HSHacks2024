@@ -1,0 +1,228 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  header {
+    background-color: black;
+    padding: 8px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  .navbar {
+    text-align: right;
+    vertical-align: top;
+    font-size: 20px;
+    padding: 30px 30px;
+    text-decoration-line: none;
+    color: black;
+    background-color: dimgrey;
+    border-color: white;
+    border-bottom: 10px;
+  }
+  
+  .navbar a {
+    text-align: right;
+    vertical-align: top;
+    font-size: 23px;
+    text-decoration-line: none;
+    color: black;
+    padding: 5px 0px;
+    border-radius: 5px;
+  }
+  
+  .navbar .active {
+    padding: 1px 1px;
+    text-align: right;
+    vertical-align: middle;
+    font-size: 22px;
+    text-decoration-line: none;
+    color: black;
+    background-color: gold;
+  }
+  
+  .navbar a:hover {
+    background-color: darkgray
+  }
+  
+  .navbar .navbar-picture:hover {
+    background-color: darkgrey
+  }
+  
+  .navbar .navbar-logo {
+    font-size: 35px;
+    text-align: center color: black;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .navbar .dropdown {
+    float: right;
+    overflow: hidden;
+    color: black;
+  }
+  
+  .navbar .dropdown .dropdown-content {
+    display: none;
+    position: absolute;
+    float: left;
+  }
+  
+  .navbar .dropdown:hover .dropdown-content {
+    display: block;
+    float: left;
+    padding: 8px 5px;
+    font-size: 17px;
+    background-color: dimgrey;
+  }
+  
+  .navbar .navbar-picture {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 10;
+    padding-top: 10px;
+  }
+  
+  .bottom-navbar {
+    color: black;
+    background-color: dimgrey;
+    text-align: center;
+    bottom: 0px;
+    font-size: 20px;
+    overflow: hidden;
+    align-items: flex-end;
+    width: 100%;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .go-Mustangs {
+    width: 75%;
+    height: 240px;
+    float: right;
+    background-color: black;
+    color: gold;
+    text-align: center;
+    font-size: 20px;
+    display: inline-block;
+  }
+  
+  .here-at {
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    float: inline-start;
+    background-color: lightgray;
+    font-size: 24px;
+  }
+  
+  .school {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  
+  div.mycontainer {
+    width: 100%;
+    overflow: auto;
+    object-fit: cover;
+    font-size: 22px;
+  }
+  
+  .mycontainer div {
+    float: left;
+    width: 33.333%
+  }
+  
+  .skillsimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  
+  .mvhs-team-img .skills-pic-discription {
+    visibility: hidden;
+  }
+  
+  .mvhs-team-img:hover .skills-pic-discription {
+    visibility: visible;
+    left: 1.75%;
+    width: 300px;
+    background-color: lightgray;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    border-color: dimgray;
+    border-width: 4px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .mvhs-team-img .skills-pic-discription::after {
+    content: " ";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent lightgray transparent;
+  }
+  
+  .join-button {
+    background-color: goldenrod;
+    color: white;
+    padding: 15px 25%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    border-radius: 12px;
+    border: 2px solid black;
+    width: 50%;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .join-button:hover {
+    font-size: 36px;
+  }
+  
+  .bottom-navbar .apps-image .appsAfter-text {
+    visibility: hidden;
+  }
+  
+  .bottom-navbar .apps-image:hover .appsAfter-text {
+    visibility: visible;
+    left: 39%;
+    width: 300px;
+    background-color: lightgray;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    border-color: dimgray;
+    border-width: 4px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .bottom-navbar .apps-image .appsAfter-text::after {
+    content: " ";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent lightgray transparent;
+  }
