@@ -53,8 +53,8 @@ html {
   
   .navbar .navbar-logo {
     font-size: 35px;
-    text-align: center 
-    justify-content: center;
+    text-align: center;
+    justify-content:center;
     display: flex;
   }
   
