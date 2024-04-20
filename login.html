@@ -1,40 +1,5 @@
 <!DOCTYPE html>
-<html>
-
-<div class="navbar">
- 
-</div>
-
-
-
-<head>
-  <link rel="stylesheet" href="style.css" />
-</head>
-
-<body>
-  <h1></h1>
-  <h3>Organize your day, and reduce the amount of stress you get. You won't forget a thing.</h3> 
-    <input type="text" id="text" name="text"><br><br>
-  
-    <button onclick="add()">Add</button>
-   <h3>                                                                                                                   </h3> 
-    <input type="result" id="result" name="result"><br><br>
-  
-   <button onclick="giving()">To Do List</button>
-  
-  <script>
-    var TodoList = [];
-
-    function add(){
-      var newThing = document.getElementById("text").value;
-      TodoList.unshift(newThing);
-      document.getElementById("text").value = "";
-    }
-
-    function giving(){
-      document.getElementById("result").value = TodoList.join(", ");
-    }
-  </script>
-</body>
-
+<html> 
+<h1>Planify!</h1>
+<h3>Your one stop shop to finding the opportunities you need to volunteer and intern!</h3>
 </html>
