@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.planner {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    width: 60%;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.day {
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.task input[type="checkbox"] {
+    margin-right: 10px;
+}
